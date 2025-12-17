@@ -1,4 +1,4 @@
-import useTheme from "../contexts/Theme.ts";
+import useTheme from "../../contexts/Theme";
 
 export default function ThemeBtn() {
   const { themeMode, lightTheme, darkTheme } = useTheme();
